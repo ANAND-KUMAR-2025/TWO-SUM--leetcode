@@ -3,6 +3,7 @@
 ## Intuition
 The goal is to find two numbers in an array that add up to a specified target. The naive approach would involve nested loops to check every pair, which would be inefficient for larger arrays. Instead, we can utilize a hash map (or dictionary) to store numbers and their indices as we iterate through the list. This allows us to quickly check if the complement (the number needed to reach the target) has already been encountered.
 
+
 ## Approach
 1. Initialize an empty dictionary (`hash_map`) to store the numbers and their indices while iterating through the list.
 2. For each number in the list:
